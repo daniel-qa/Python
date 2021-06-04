@@ -6,7 +6,7 @@ import pymysql
 pymysql.install_as_MySQLdb()
 import MySQLdb
 
-# 連接 MySQL 資料庫
+# 連接 MySQL 資料庫，預設 port = 3306
 db = MySQLdb.connect(host="localhost",
     user="nuser", passwd="pwd", db="my_db")
 cursor = db.cursor()
