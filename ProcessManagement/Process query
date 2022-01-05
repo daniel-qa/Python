@@ -4,7 +4,6 @@ import os
 for proc in psutil.process_iter(): 
 	process = psutil.Process(proc.pid)# Get the process info using PID
 	pname = process.name()# Here is the process name
-	#print(pname)
 
 	process_name = "MyApp.exe" 
 	if pname == process_name: 
