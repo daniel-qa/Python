@@ -1,0 +1,17 @@
+取得列表第一個元素做排序
+# 获取列表的第一个元素
+def takeFirst(elem):
+    return elem[0]
+ 
+# 列表
+random=[(2, 'c'), (3, 'b'), (4, 'a'), (1, 'd')]
+ 
+# 指定第一个元素排序
+random.sort(key=takeFirst,reverse=True)
+ 
+# 输出类别
+print ('排序列表：', random)
+
+
+
+
