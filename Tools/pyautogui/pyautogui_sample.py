@@ -39,8 +39,12 @@ def Upload_Music():
 	pyautogui.moveTo( 829 , 819)   # 開啟
 	pyautogui.click()
 	
+	
 if __name__== "__main__":   
-    print("This is main function called")
-    
-    # 上傳音樂檔
-    Upload_Music()
+	print("This is main function called")
+
+	# 上傳音樂檔
+	Upload_Music()
+	
+	
+	
