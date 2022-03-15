@@ -18,3 +18,8 @@ pyautogui.click()
 pyautogui.moveTo( 628 , 640)   # Path 
 
 pyautogui.click()
+
+
+
+# Pressing Ctrl+C
+pyautogui.hotkey('ctrl', 'c')
