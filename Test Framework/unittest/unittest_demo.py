@@ -6,6 +6,10 @@ import time
 import unittest
 
 class IntegerArithmeticTestCase(unittest.TestCase):
+	
+	def setUp(self):
+                print('init')
+	
 	def testAdd(self):  # test method names begin with 'test'
 		self.assertEqual((1 + 2), 3)
 		self.assertEqual(0 + 1, 1)
