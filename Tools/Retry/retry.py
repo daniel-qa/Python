@@ -7,8 +7,8 @@ def make_trouble():
         '''Retry on ZeroDivisionError, raise error after 3 attempts, sleep 2 seconds between attempts.'''
         print("hello")
 
-        #1/0
-        raise BaseException("= 自定義錯誤 =")
+        1/0
+        #raise BaseException("= 自定義錯誤 =")
         print("Success")
 
 try:
@@ -16,3 +16,9 @@ try:
         make_trouble()
 except Exception as e:
         print(e)
+
+        
+
+        
+# BaseException 是 Exception 的父类
+# retry 無法捕捉(上面的用法)     
