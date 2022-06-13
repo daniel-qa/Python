@@ -1,11 +1,5 @@
 from __future__ import division # 不管什麼情況，都是得到浮點數的結果。
-import os,sys 
-from time import sleep
-import pyautogui
-import logging
-import pyperclip as pc
-
-
+import os,sys
 
 FORMAT = '%(asctime)s %(message)s'            # 加入時間記錄
 logging.basicConfig(level=logging.INFO,format=FORMAT)	# 關閉輸出
