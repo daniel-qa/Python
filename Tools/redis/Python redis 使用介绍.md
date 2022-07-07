@@ -5,4 +5,6 @@ sudo pip3 install redis
 或
 sudo easy_install redis
 
+
+apt-get install python-pip 
 ```
