@@ -21,6 +21,7 @@ for rowNum in range(2, sheet.max_row, 1):
     if produceName in price_updates_dict:
         sheet.cell(rowNum, 2).value = price_updates_dict[produceName]
         sheet.cell(rowNum, 2).font = Font(color='FF0000')
+
 # 將結果另存新檔
 wb.save('produceSales_update.xlsx')
 print("Done!")
